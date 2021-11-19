@@ -1,0 +1,9 @@
+create database registration;
+use registration;
+create table userReg(id int PRIMARY key AUTO_INCREMENT, 
+                     uname varchar(50), 
+                     umail varchar(50),
+                     pnum varchar(15),
+                     mtstatus varchar(10),
+                     gender char
+                     )
